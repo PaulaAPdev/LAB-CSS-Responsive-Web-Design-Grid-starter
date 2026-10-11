@@ -1,6 +1,27 @@
-html, body {
-  margin: 0;
+
+.grid-container{
+  display:flex;
+  grid-template-columns: repeat(12,100px);
+  border-bottom:10px solid black;
+  border-top:10px solid black;
+  width: 1350px;
+  
 }
+
+.grid-item{
+  width:140px;
+  height:580px;
+  background-color: pink; 
+}
+
+.barra1{
+  width:20px;
+  height:580px;
+  background-color: white;
+}
+
+
+
 
 /* LESSON EXAMPLE COLOR
  *

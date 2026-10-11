@@ -1,3 +1,40 @@
-html, body {
-  margin: 0;
+#body{
+  width:300px;
+  height:900px;
+  position: fixed;
 }
+ .h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+  }
+
+#cabecera{
+  border: 1px solid black;
+  background-color: black;
+  height:40px;
+  width: 900px;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:18px;
+  padding-left: 10px;
+  padding-bottom:10px;
+  }
+
+  #footer{
+    background-color: grey;
+    width:900px;
+    height:40px;
+    font-size:18px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: solid 1px grey;
+  }
+
+   #espacio{
+    width:900px;
+    height:300px;
+  }
+
+ 
